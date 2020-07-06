@@ -5,7 +5,7 @@
 - BOM (browers object model) 浏览器对象模型
 - ECMAScript js 的核心
 
-![DOM树](./DOMltree.gif)
+![DOM树](./img/DOMltree.gif)
 
 ## DOM 节点
 - 节点分类
@@ -122,7 +122,7 @@
       可视宽高 =  width(height) + padding + border
     
 - offsetHeight 可视高度 
-    
+  
     - offsetLeft   距离定位父级的left坐标  元素距离定位父级左上角的距离
     
     - offsetTop    距离定位父级的top坐标
@@ -133,7 +133,7 @@
       clientWidth/clientHeight =  width(height) + padding;
     
 - clientHeight 可视高度 - border
-    
+  
     - clientTop    上边框宽度
     
     - clientLeft   左边框宽度 
@@ -144,7 +144,7 @@
       内容高度，如果内容高度比元素高度要高，scrollHeight 就是内容，否则就是元素高度
     
 - scrollHeight  内容高度
-    
+  
     - scrollLeft    左右滚动距离
     
     - scrollTop     上下滚动距离
