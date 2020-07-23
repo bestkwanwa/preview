@@ -37,7 +37,9 @@ Array Array.of(element0[, element1[, ...[, elementN]]]) 将参数转成一个数
 
 
 ## arr.find
-Value arr.find(callback[, thisArg]) 查找数组中满足要求的**第一个**元素的值
+Value arr.find(callback[, thisArg]) 查找数组中满足要求的**第一个**元素的**值**
+
+**需要传入callback**
 
 参数：
     callback
@@ -57,7 +59,9 @@ Value arr.find(callback[, thisArg]) 查找数组中满足要求的**第一个**�
 
 
 ## arr.findIndex
-Index arr.findIndex(callback[, thisArg]) 查找数组中满足要求的第一个元素的值的索引
+Index arr.findIndex(callback[, thisArg]) 查找数组中满足要求的第一个元素的值的**索引**
+
+**需要传入callback**
 
 参数:
     callback
